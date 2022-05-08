@@ -4,12 +4,12 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run tailwind && vue-cli-service build",
     "mock": "node ./mock/server/mock-server.js",
     "tailwind": "tailwindcss -i ./src/styles/tailwind/input.css -o ./src/styles/tailwind/output.css",
     "tailwind:watch": "tailwindcss -i ./src/styles/tailwind/input.css -o ./src/styles/tailwind/output.css --watch",
     "build:lib": "vue-cli-service build --target lib libs/index.ts && npm pack && shx mv ./*.tgz ./packages/",
-    "serve:tailwind": "npm run serve & npm run tailwind:watch"
+    "serve:tailwind": "npm run serve & npm run tailwind:watch",
+    "build:prod": "npm run tailwind && vue-cli-service build"
   },
   "files": [
     "dist/*"
