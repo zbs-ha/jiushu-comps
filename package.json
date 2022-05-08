@@ -8,17 +8,18 @@
     "mock": "node ./mock/server/mock-server.js",
     "tailwind": "tailwindcss -i ./src/styles/tailwind/input.css -o ./src/styles/tailwind/output.css",
     "tailwind:watch": "tailwindcss -i ./src/styles/tailwind/input.css -o ./src/styles/tailwind/output.css --watch",
-    "build:lib": "vue-cli-service build --target lib libs/index.ts && npm pack && shx mv ./jiushu-comps-0.3.8.tgz ./packages/",
+    "build:lib": "vue-cli-service build --target lib libs/index.ts && npm pack && shx mv ./*.tgz ./packages/",
     "serve:tailwind": "npm run serve & npm run tailwind:watch"
   },
   "files": [
     "dist/*"
   ],
-  "main": "./dist/jiushu-comps.umd.js",
+  "main": "./dist/jiushu-comps.umd.min.js",
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "core-js": "^3.6.5",
     "echarts": "^5.3.2",
+    "jiushu-comps": "file:packages/jiushu-comps-0.3.8.tgz",
     "lodash-es": "^4.17.21",
     "uuid": "^8.3.2",
     "vue": "^2.6.11",
