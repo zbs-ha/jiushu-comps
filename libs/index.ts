@@ -1,3 +1,7 @@
+// 组件的依赖项
+import '@/ui'
+import '@/styles/tailwind/output.css'
+
 export { default as VEcharts } from '@/components/VEcharts.vue'
 export { default as MDialog } from '@/components/MDialog.vue'
 export { default as FormDialog } from '@/components/FormDialog.vue'
