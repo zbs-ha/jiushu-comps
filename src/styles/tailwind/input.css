@@ -1,0 +1,23 @@
+@import "./preflight.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 14px;
+  }
+}
+
+@layer utilities {
+  /* 子元素水平排列，居中 */
+  .h-center {
+    @apply flex items-center justify-center;
+  }
+
+  /* 子元素竖直排列，居中 */
+  .v-center {
+    @apply flex flex-col items-center justify-center;
+  }
+}

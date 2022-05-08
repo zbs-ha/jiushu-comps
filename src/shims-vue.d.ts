@@ -1,5 +1,9 @@
 declare module '*.vue' {
-  import Vue from 'vue';
+  import Vue from 'vue'
 
-  export default Vue;
+  export default Vue
 }
+
+declare module 'vue-grid-layout'
+
+declare module 'jiushu-comps'
