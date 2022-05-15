@@ -122,9 +122,13 @@
 </template>
 
 <script lang="ts">
-import {
-  find, findIndex, isObject, keys, last, uniqueId,
-} from 'lodash-es'
+import find from 'lodash/find'
+import findIndex from 'lodash/findIndex'
+import isObject from 'lodash/isObject'
+import keys from 'lodash/keys'
+import last from 'lodash/last'
+import uniqueId from 'lodash/uniqueId'
+
 import Vue, { PropType } from 'vue'
 import FormDialog from '@/components/FormDialog.vue'
 import { DVChartType, DvDataSource } from '@/models/DataVisualPanel'
