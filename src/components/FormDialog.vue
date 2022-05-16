@@ -25,7 +25,7 @@
 <script lang="ts">
 import Vue, { PropType } from 'vue'
 import MDialog from '@/components/MDialog.vue'
-import cloneDeep from 'lodash/cloneDeep'
+import { cloneDeep } from 'lodash-es'
 import { MDialogRet } from '@/models/MDialog'
 
 export default Vue.extend({

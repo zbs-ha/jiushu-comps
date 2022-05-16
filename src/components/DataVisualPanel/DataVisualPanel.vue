@@ -45,9 +45,7 @@ import {
   DvCtx, DvDataSource,
   PanelData,
 } from '@/models/DataVisualPanel'
-import find from 'lodash/find'
-import get from 'lodash/get'
-import sortBy from 'lodash/sortBy'
+import { find, get, sortBy } from 'lodash-es'
 
 import Vue, { PropType } from 'vue'
 import { v4 as uuid } from 'uuid'

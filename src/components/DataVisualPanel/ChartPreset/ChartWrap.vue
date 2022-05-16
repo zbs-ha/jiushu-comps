@@ -64,7 +64,7 @@ import {
   PanelChart,
 } from '@/models/DataVisualPanel'
 import Vue, { PropType } from 'vue'
-import findIndex from 'lodash/findIndex'
+import { findIndex } from 'lodash-es'
 import ChartTable from '@/components/DataVisualPanel/ChartPreset/ChartTable.vue'
 import ChartLine from '@/components/DataVisualPanel/ChartPreset/ChartLine.vue'
 import ChartBar from '@/components/DataVisualPanel/ChartPreset/ChartBar.vue'

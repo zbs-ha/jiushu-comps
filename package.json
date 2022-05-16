@@ -20,7 +20,7 @@
     "core-js": "^3.6.5",
     "echarts": "^5.3.2",
     "jiushu-comps": "file:packages/jiushu-comps-0.3.8.tgz",
-    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "uuid": "^8.3.2",
     "vue": "^2.6.11",
     "vue-echarts": "^6.0.2",
