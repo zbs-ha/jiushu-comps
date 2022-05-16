@@ -16,4 +16,4 @@ http://x.x.x.x/ww
 #### 2.TODO
 - 体积优化 vue ui
 - 图表微调
-- 发布到NPM ?
+- 发布到 NPM ?

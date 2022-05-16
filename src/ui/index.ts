@@ -12,6 +12,7 @@ import {
   Cascader,
   Table,
   ConfigProvider,
+  Icon,
   message,
   notification,
 } from 'ant-design-vue'
@@ -32,6 +33,7 @@ const antComps = [
   Cascader,
   Table,
   ConfigProvider,
+  Icon,
 ]
 
 // 注册组件
