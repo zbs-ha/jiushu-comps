@@ -65,10 +65,10 @@ import {
 } from '@/models/DataVisualPanel'
 import Vue, { PropType } from 'vue'
 import { findIndex } from 'lodash-es'
-import ChartTable from '@/components/DataVisualPanel/ChartPreset/ChartTable.vue'
-import ChartLine from '@/components/DataVisualPanel/ChartPreset/ChartLine.vue'
-import ChartBar from '@/components/DataVisualPanel/ChartPreset/ChartBar.vue'
-import ChartPie from '@/components/DataVisualPanel/ChartPreset/ChartPie.vue'
+import ChartTable from './ChartTable.vue'
+import ChartLine from './ChartLine.vue'
+import ChartBar from './ChartBar.vue'
+import ChartPie from './ChartPie.vue'
 
 type DATA = {
   dvCtx: DvCtx
