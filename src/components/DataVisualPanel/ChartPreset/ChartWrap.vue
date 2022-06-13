@@ -85,7 +85,7 @@ export default Vue.extend({
     ChartTable,
   },
 
-  inject: ['getDvCtx'],
+  inject: ['dvCtx'],
 
   props: {
     chart: {
@@ -97,7 +97,7 @@ export default Vue.extend({
   data(): DATA {
     return {
       // @ts-ignore
-      dvCtx: this.getDvCtx() as DvCtx,
+      dvCtx: this.dvCtx as DvCtx,
 
       chartData: [],
       loading: false,

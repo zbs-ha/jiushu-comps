@@ -8,6 +8,7 @@ export { default as EyeInvisibleOutline } from '@ant-design/icons/lib/outline/Ey
 export { default as CheckOutline } from '@ant-design/icons/lib/outline/CheckOutline'
 export { default as CheckSquareOutline } from '@ant-design/icons/lib/outline/CheckSquareOutline'
 export { default as ExclamationCircleOutline } from '@ant-design/icons/lib/outline/ExclamationCircleOutline'
+export { default as QuestionCircleOutline } from '@ant-design/icons/lib/outline/QuestionCircleOutline'
 
 export { default as InfoCircleFill } from '@ant-design/icons/lib/fill/InfoCircleFill'
 export { default as CheckCircleFill } from '@ant-design/icons/lib/fill/CheckCircleFill'

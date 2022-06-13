@@ -42,7 +42,8 @@ import {
   DVChartData,
   DVChartDataCfg,
   DVChartLayout,
-  DvCtx, DvDataSource,
+  DvCtx,
+  DvDataSource,
   PanelData,
 } from '@/models/DataVisualPanel'
 import { find, get, sortBy } from 'lodash-es'
@@ -66,8 +67,8 @@ type DATA = {
   locale: any,
 
   dataSourceListReady: Promise<void>
-  dataSourceListResolve: ()=> void
-  dataSourceListReject: ()=> void
+  dataSourceListResolve: () => void
+  dataSourceListReject: () => void
 } & PanelData & Record<string, any>
 
 export default Vue.extend({
@@ -120,12 +121,9 @@ export default Vue.extend({
   },
 
   // 在组件中共享状态、能力
-  provide() {
+  provide(): { dvCtx: DvCtx } {
     return {
-      getDvCtx: (): DvCtx => ({
-        panelCharts: this.panelCharts,
-        genChartData: this.genChartData,
-      }),
+      dvCtx: this, // 需保证 o 能"始终"引用到【状态及方法】
     }
   },
 

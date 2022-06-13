@@ -1,5 +1,6 @@
 // 组件的依赖项
 import '@/ui'
+import '@/ui/icons'
 import '@/styles/tailwind/output.css'
 
 export { default as VEcharts } from '@/components/VEcharts.vue'
