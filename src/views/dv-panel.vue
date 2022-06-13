@@ -11,12 +11,12 @@
 <script lang="ts">
 import Vue from 'vue'
 
-// 直接引入组件
-import DataVisualPanel from '@/components/DataVisualPanel/DataVisualPanel.vue'
+// // 直接引入组件
+// import DataVisualPanel from '@/components/DataVisualPanel/DataVisualPanel.vue'
 
-// // 引入打包生成的组件
-// import { DataVisualPanel } from 'jiushu-comps'
-// import 'jiushu-comps/dist/jiushu-comps.css'
+// 引入打包生成的组件
+import { DataVisualPanel } from 'jiushu-comps'
+import 'jiushu-comps/dist/jiushu-comps.css'
 
 import { DvDataSource, PanelData } from '@/models/DataVisualPanel'
 
